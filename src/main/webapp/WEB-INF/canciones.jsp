@@ -15,6 +15,9 @@
             <td>${c.titulo}</td>
             <td>${c.artista}</td>
             <td><a href="/canciones/detalle/${c.id}">Detalle</a></td>
+			<td><a href="/canciones/formulario/agregar/0">
+			    <button>Agregar nueva canción</button>
+			</a></td>
         </tr>
     </c:forEach>
 </table>
